@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/购物车.css"/>
+    <script type="text/javascript" src="../js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+    <script type="text/javascript" src="../js/购物车.js"></script>
+    <script type="text/javascript" src="../js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="../js/strOper.js"></script>
+    <script type="text/javascript" src="../js/放大镜.js"></script>
+
+
+</head>
+<body>
+<!--------------------top----------------------->
+<div id="top_width">
+    <div id="top">
+        <div id="top_left" class="top_left">
+            <p>Hi~欢迎来到卿本佳人商城！</p>
+            <span><i>登录</i> | <b>注册</b></span>
+        </div>
+        <div id="top_right" class="top_right">
+            <ul>
+                <li><a href="#" class="a1">我的订单</a></li>
+                <li class="li1"><a href="#" class="a2">下载App</a></li>
+                <li class="li2"><a href="#" class="a3">关注我们</a></li>
+                <li><a href="#" class="a4">收藏本站</a></li>
+                <li><a href="#" class="a5">新手帮助</a></li>
+                <li><a href="#" class="a6">联系客服</a></li>
+                <li class="li3"><a href="#" class="a7">网站导航</a></li>
+            </ul>
+            <div id="erweima" class="erweima">
+                <img src="../images/erwema.png"/>
+                <p>扫一扫<br/><span>手机上伊的家购物更优惠</span></p>
+            </div>
+            <div id="erweima2" class="erweima2">
+                <img src="../images/erwema.png"/>
+                <p>扫一扫<br/><span>关注伊的家微信公众平台</span></p>
+            </div>
+            <div id="daohang" class="daohang">
+                <div id="daohang_left" class="daohang1">
+                    <p>产品分类</p>
+                    <ul>
+                        <li><a href="#">服装</a></li>
+                        <li><a href="#">美妆</a></li>
+                        <li><a href="#">美食</a></li>
+                        <li><a href="#">母婴</a></li>
+                        <li><a href="#">家居</a></li>
+                        <li><a href="#">首饰</a></li>
+                    </ul>
+                </div>
+                <div id="daohang_center" class="daohang1">
+                    <p>热门推荐</p>
+                    <ul>
+                        <li><a href="http://www.taobao.com">淘宝网</a></li>
+                        <li><a href="http://www.jingdong.com">京东商城</a></li>
+                        <li><a href="http://www.cnrmall.com/">央广购物</a></li>
+                    </ul>
+                </div>
+                <div id="daohang_right" class="daohang1">
+                    <p>服务指南</p>
+                    <ul>
+                        <li><a href="#">帮助中心</a></li>
+                        <li><a href="#">品质保障</a></li>
+                        <li><a href="#">特色服务</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--------------------search----------------------->
+<div id="search" class="search">
+    <div id="search_left" class="search_left">
+        <a href="../index.html"/><img src="../images/logo.png" style="height:122px"/></a>
+    </div>
+    <div id="search_center" class="search_center">
+        <div id="search_box">
+            <select>
+                <option selected="selected">服 装</option>
+                <option>美 妆</option>
+                <option>美 食</option>
+            </select>
+            <input class="txt" type="text" placeholder="请输入想要查找的商品"/>
+            <input class="btn" type="button" value="搜索"/>
+        </div>
+        <div id="hotsearch" class="hotsearch">
+            <p>热门搜索：</p>
+            <ul>
+                <li><a href="#">服装</a></li>
+                <li><a href="#">美妆</a></li>
+                <li><a href="#">美食</a></li>
+                <li><a href="#">母婴</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="search_right" class="search_right">
+        <div id="car" class="car">
+            <p>我的购物车</p>
+            <span>0</span>
+            <div id="car_box" class="car_box">
+                <em>购物车空空的</em>
+            </div>
+
+            <div id="car_box2" class="car_box2">
+                <div id="car_box2_thing" class="car_box2_thing">
+                    <div id="car_box2_thing_img" class="car_box2_thing_img">
+                        <img src="../images/color.jpg" alt="图片" style="width: 77px; height: 77px;"/>
+                    </div>
+                    <div id="car_box2_thing_name" class="car_box2_thing_name">
+                        夏季新款2016韩版镂空无袖连衣裙女装纯色宽松显瘦大码a字短裙子0
+                    </div>
+                    <div id="car_box2_thing_suan" class="car_box2_thing_suan">
+                        <strong>￥<b class="b">80.00</b> x<i><input type="text" value="1"/></i></strong>
+                    </div>
+                    <div id="car_box2_thing_remove" class="car_box2_thing_remove">
+                        删除
+                    </div>
+                </div>
+                <div id="car_box2_bottom" class="car_box2_bottom">
+                    <div id="car_box2_bottom_top">
+                        <div id="car_box2_bottom_top_left">
+                            <strong>共<i class="i1">0</i> 件 ， 总计：￥<i class="i2">0.00</i></strong>
+                        </div>
+                        <div id="car_box2_bottom_top_right">
+                            删除全部
+                        </div>
+                    </div>
+                    <input class="car_box2_bottom_btn" type="button" value="去购物车结算"/>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------ban----------------------->
+<div id="banwidth" class="banwidth">
+    <div id="ban" class="ban">
+
+        <ul id="display">
+            <li class="banli1"><a href="#">全部分类 &nbsp; &nbsp; &nbsp;▼</a></li>
+            <li><a href="#">服装</a></li>
+            <li><a href="#">美妆</a></li>
+            <li><a href="#">美食</a></li>
+            <li><a href="#">母婴</a></li>
+            <li><a href="#">家居</a></li>
+        </ul>
+        <!--<div id="banbox" class="banbox">
+            <div id="banbox1" class="banbox_li">
+                <p id="banp1">服&nbsp;&nbsp;&nbsp;装&nbsp; &nbsp;&nbsp; &nbsp;▼</p>
+                    <ul id="banul1">
+                       <li>秋装连衣裙</li>
+                       <li>女t恤</li>
+                       <li>衬衫</li>
+                       <li>牛仔裤</li>
+                    </ul>
+            </div>
+            <div id="banbox" class="banbox_li">
+                <p id="banp2">美&nbsp;&nbsp;&nbsp;妆&nbsp;&nbsp;&nbsp; &nbsp;▼</p>
+                    <ul id="banul2">
+                       <li>面膜</li>
+                       <li>防晒霜</li>
+                       <li>洗发水</li>
+                       <li>洗面奶</li>
+                    </ul>
+            </div>
+            <div id="banbox" class="banbox_li">
+                <p id="banp3">母&nbsp;&nbsp;&nbsp;婴&nbsp; &nbsp;&nbsp; &nbsp;▼</p>
+                    <ul id="banul3">
+                       <li>玩具</li>
+                       <li>婴儿床</li>
+                       <li>婴儿服</li>
+                       <li>亲子装</li>
+                    </ul>
+            </div>
+            <div id="banbox" class="banbox_li">
+                <p id="banp4">美&nbsp;&nbsp;&nbsp;食&nbsp; &nbsp;&nbsp; &nbsp;▼</p>
+                    <ul id="banul4">
+                       <li>大闸蟹</li>
+                       <li>蜂蜜</li>
+                       <li>零食</li>
+                       <li>茶包</li>
+                    </ul>
+            </div>
+       </div>-->
+    </div>
+</div>
+<!-----------------body----------------------->
+<div id="body">
+    <div id="body_top" class="body_top">
+        <img src="../images/car1.jpg" style="width:100px;height:80px;"/>
+        <p>我的购物车</p>
+    </div>
+    <div id="body_foot" class="body_foot">
+        <div id="none" class="none">
+            <div id="none_top" class="none_top">
+                <div id="select" class="select">
+                    <div id="ck"><input class="ck" type="checkbox"/>全选</div>
+                    <div id="thing">商品</div>
+                    <div id="count">数量</div>
+                    <div id="price">现金价格</div>
+                    <div id="jifen">积分价格</div>
+                    <div id="all">小计</div>
+                    <div id="remove">操作</div>
+                </div>
+            </div>
+            <div id="none_center_height">
+                <!--<div id="none_center" class="none_center">
+                        <div id="allck"><input class="ck" type="checkbox" /></div>
+                        <div id="thingimg"><img src="#" alt="图片"></div>
+                        <div id="thingname">商品名称+简介</div>
+                        <div id="countdo">
+                            <div id="jian" class="opera"> - </div>
+                            <input class="num" value="1" />
+                            <div id="jia" class="opera"> + </div>
+                        </div>
+                        <div id="thingprice">￥00.00</div>
+                        <div id="thingjifen">0.00</div>
+                        <div id="thingall">0.00</div>
+                        <div id="thingremove">删除</div>
+                </div>-->
+            </div>
+            <div id="none_bottom" class="none_bottom">
+                <div id="none_bottom_left">
+                    <div id="shan" class="none_bottom_select">删除所选</div>
+                    <div id="qing" class="none_bottom_select">清空购物车</div>
+                    <div id="shua" class="none_bottom_select">刷新购物车</div>
+                </div>
+                <div id="none_bottom_right" class="none_bottom_right">
+                    <p>(不含运费)应付积分:<span class="jifennum">0.00</span></p>
+                    <p>商品金额总计:<span class="thingall">0.00</span></p>
+                </div>
+            </div>
+            <div id="sure">
+                <input class="goon" type="button" value="继续购物"/>
+                <input class="end" type="button" value="去结算"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-----------------bottom----------------------->
+<div id="bottomwidth">
+    <div id="bottom" class="bottom">
+        <div id="bottom_left" class="bottom_left">
+            <ul>
+                <li><a class="da" href="#">新手指南</a></li>
+                <li><a href="#">购物指南</a></li>
+                <li><a href="#">会员介绍</a></li>
+                <li><a href="#">注册流程</a></li>
+                <li><a href="#">隐私声明</a></li>
+            </ul>
+            <ul>
+                <li><a class="da" href="#">付款方式</a></li>
+                <li><a href="#">关于支付宝</a></li>
+                <li><a href="#">财付通</a></li>
+                <li><a href="#">信用卡支付</a></li>
+                <li><a href="#">网银支付</a></li>
+            </ul>
+            <ul>
+                <li><a class="da" href="#">配送服务</a></li>
+                <li><a href="#">配送中心</a></li>
+                <li><a href="#">打包流程</a></li>
+                <li><a href="#">发货流程</a></li>
+                <li><a href="#">快递查询</a></li>
+            </ul>
+            <ul>
+                <li><a class="da" href="#">售后服务</a></li>
+                <li><a href="#">退换货政策</a></li>
+                <li><a href="#">退款说明</a></li>
+                <li><a href="#">退换货流程</a></li>
+                <li><a href="#">常见问题</a></li>
+            </ul>
+            <ul>
+                <li><a class="da" href="#">关于我们</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">商家入驻</a></li>
+                <li><a href="#">招贤纳士</a></li>
+            </ul>
+        </div>
+        <div id="bottom_right" class="bottom_right">
+            <dl>
+                <dt><img src="../images/bottom.png" width="110" height="103"/></dt>
+                <dd>卿本佳人手机客户端</dd>
+            </dl>
+            <dl>
+                <dt><img src="../images/erwema1.png"/></dt>
+                <dd>卿本佳人二维码</dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="../images/bottom1.png"/>
+                    <span>客服热线</span>
+                </dt>
+                <dd>12345678</dd>
+                <p>客服邮箱：qingbenjiaren@123.com</p>
+                <p>人事邮箱：qingbenjiaren@123.com</p>
+            </dl>
+
+        </div>
+    </div>
+</div>
+<!--------------------------foot------------------------------>
+<div id="footwidth">
+    <div id="foot">
+        <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">友情链接</a></li>
+            <li><a href="#">免责条款</a></li>
+            <li><a href="#">法律声明</a></li>
+            <li><a href="#">分类大全</a></li>
+            <li><a href="#">爱尝鲜</a></li>
+            <li><a href="#">美丽课堂</a></li>
+        </ul>
+        <p>Powered by www.qingbenjiaren.com © 2008-2016 粤ICP备13070863号 增值电信业务经营许可证 京B2-20140314</p>
+    </div>
+</div>
+
+
+
+
+

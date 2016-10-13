@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#top, #center, #foot {
+    margin: 0 auto;
+}
+
+#top {
+    width: 1006px;
+    height: 130px;
+}
+
+#top img {
+    float: left;
+}
+
+#top #top_right {
+    width: 150px;
+    height: 83px;
+    float: left;
+    margin-top: 30px;
+    border-left: 1px solid #eee;
+    font: 34px/83px "微软雅黑";
+    text-align: center;
+}
+
+#top #ask {
+    width: 213px;
+    height: 32px;
+    float: right;
+    padding-top: 90px;
+    font: 13px/32px "微软雅黑";
+}
+
+#top #ask input {
+    width: 87px;
+    height: 32px;
+    background: #fc548a;
+    border: 1px solid #ee326f;
+    font: 13px/32px "微软雅黑";
+    color: #fff;
+}
+
+#center {
+    width: 1006px;
+    height: 400px;
+    border: 1px solid #eee;
+}
+
+#center #center_left {
+    width: 613px;
+    height: 365px;
+    float: left;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+#center #center_left p {
+    font: 20px/20px "微软雅黑";
+}
+
+#center #center_left #form {
+    width: 505px;
+    height: 290px;
+    border-top: 1px dotted #eee;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-left: 95px;
+}
+
+#center #center_left form {
+    width: 320px;
+    height: 290px;
+    font: 12px/40px "微软雅黑";
+}
+
+#center #center_left form .position {
+    position: relative;
+    width: 505px;
+}
+
+#center #center_left input {
+    width: 271px;
+    height: 40px;
+    font: 12px/40px "微软雅黑";
+    color: #a9a9a9;
+    margin-left: 13px;
+    margin-bottom: 15px;
+
+}
+
+#center #center_left .txt {
+    width: 223px;
+    height: 32px;
+}
+
+#center #center_left .email {
+    width: 223px;
+    height: 32px;
+}
+
+#center #center_left .tishi {
+    height: 26px;
+    background: #f4ffd4;
+    font: 12px /26px "微软雅黑";
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -16px;
+    margin-left: 90px;
+    position: absolute;
+    left: 275px;
+    top: 18px;
+    display: none;
+}
+
+#center #center_left .error {
+    height: 26px;
+    background: #ffdbdb url(../images/error.png) no-repeat left center;
+    font: 12px /26px "微软雅黑";
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -16px;
+    margin-left: 90px;
+    padding-left: 25px;
+    position: absolute;
+    left: 275px;
+    top: 18px;
+    display: none;
+}
+
+#center #center_left .tishi2 {
+    height: 26px;
+    background: #ffdbdb url(../images/error.png) no-repeat left center;
+    font: 12px /26px "微软雅黑";
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -16px;
+    margin-left: 90px;
+    padding-left: 25px;
+    position: absolute;
+    left: 275px;
+    top: 18px;
+    display: none;
+}
+
+#center #center_left .tishi3 {
+    margin-top: -16px;
+    margin-left: 90px;
+    padding-left: 25px;
+    position: absolute;
+    left: 275px;
+    top: 18px;
+    display: none;
+}
+
+#center #center_left .psd {
+    width: 223px;
+    height: 32px;
+}
+
+#center #center_left #dengji {
+    width: 182px;
+    height: 15px;
+    margin-left: 78px;
+    margin-bottom: 4px;
+    margin-top: -7px;
+    font: 12px/15px "微软雅黑";
+    color: #fff;
+    text-align: center;
+}
+
+#center #center_left #dengji #ruo .on {
+    background: red;
+}
+
+#center #center_left #dengji #zhong .on {
+    background: orange;
+}
+
+#center #center_left #dengji #qiang .on {
+    background: green;
+}
+
+#center #center_left .dengji1 {
+    width: 58px;
+    height: 15px;
+    background: #cabdcf;
+    margin-right: 2px;
+    float: left;
+}
+
+#center #center_left .psd2 {
+    width: 223px;
+    height: 32px;
+}
+
+#center #center_left .ck {
+    width: 12px;
+    height: 12px;
+    margin-left: 50px;
+}
+
+#center #center_left i {
+    font: 13px /13px "微软雅黑";
+    font-style: normal;
+    color: #ee2a7b;
+}
+
+#center #center_left form span {
+    float: right;
+    display: block;
+    margin-top: -40px;
+    color: #a9a9a9;
+}
+
+#center #center_left .btn {
+    width: 135px;
+    height: 40px;
+    background: #fc548a;
+    border: 1px solid #ee326f;
+    font: 18px/40px "微软雅黑";
+    color: #fff;
+    margin-left: 50px;
+
+}
+
+#center #center_left .btn:hover {
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#center #center_right {
+    width: 333px;
+    height: 400px;
+    float: left;
+}
+
+#center #center_right #center_right_box {
+    width: 240px;
+    height: 210px;
+    background: #fffafc;
+    border: 1px solid #fbc7d8;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 55px;
+}
+
+#center #center_right #center_right_box dl {
+    width: 212px;
+    height: 117px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+#center #center_right #center_right_box p {
+    font: 15px/35px "微软雅黑";
+    color: #ccc;
+
+}
+
+/*--------------foot-----------------------*/
+
+#foot {
+    width: 1006px;
+    height: 75px;
+
+}
+
+#foot ul {
+    width: 600px;
+    height: 17px;
+    padding-top: 10px;
+}
+
+#foot li {
+    list-style: none;
+    float: left;
+    border-right: 1px solid #eee;
+}
+
+#foot a {
+    text-decoration: none;
+    color: #000;
+    font: 12px/17px "微软雅黑";
+    padding: 0 12px;
+}
+
+#foot p {
+    width: 810px;
+    height: 17px;
+    font: 12px/17px "微软雅黑";
+
+    padding-top: 12px;
+}
